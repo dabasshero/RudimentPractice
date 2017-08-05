@@ -19,7 +19,9 @@
         <activity android:name=".SingleStrokeRudActivity" />
         <activity android:name=".DoubleStrokeRudActivity" />
         <activity android:name=".MultipleRollRudActivity" />
-        <activity android:name=".DiddleStrokeRudActivity"></activity>
+        <activity android:name=".DiddleStrokeRudActivity" />
+        <activity android:name=".FlamRudActivity" />
+        <activity android:name=".DragRudActivity"></activity>
     </application>
 
 </manifest>

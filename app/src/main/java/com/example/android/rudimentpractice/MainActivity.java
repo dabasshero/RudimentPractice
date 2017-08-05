@@ -32,4 +32,14 @@ public class MainActivity extends AppCompatActivity {
         Intent l = new Intent(this, DiddleStrokeRudActivity.class);
         startActivity(l);
     }
+
+    public void openFlamRudiments(View view) {
+        Intent m = new Intent(this, FlamRudActivity.class);
+        startActivity(m);
+    }
+
+    public void openDragRudiments(View view) {
+        Intent n = new Intent(this, DragRudActivity.class);
+        startActivity(n);
+    }
 }
