@@ -63,6 +63,7 @@
             android:background="#FDD835"
             android:padding="20dp"
             android:text="Diddle Stroke Roll Rudiments"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:onClick="openDiddleStrokeRudiments"/>
     </LinearLayout>
 </ScrollView>

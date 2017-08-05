@@ -27,4 +27,9 @@ public class MainActivity extends AppCompatActivity {
         Intent k = new Intent(this, MultipleRollRudActivity.class);
         startActivity(k);
     }
+
+    public void openDiddleStrokeRudiments(View view) {
+        Intent l = new Intent(this, DiddleStrokeRudActivity.class);
+        startActivity(l);
+    }
 }
