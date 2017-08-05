@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SingleStrokeRudActivity" />
-        <activity android:name=".DoubleStrokeRudActivity"></activity>
+        <activity android:name=".DoubleStrokeRudActivity" />
+        <activity android:name=".MultipleRollRudActivity"></activity>
     </application>
 
 </manifest>
