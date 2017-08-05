@@ -65,5 +65,25 @@
             android:text="Diddle Stroke Roll Rudiments"
             android:textAlignment="center"
             android:onClick="openDiddleStrokeRudiments"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#FDD835"
+            android:padding="20dp"
+            android:text="Flam Stroke Roll Rudiments"
+            android:textAlignment="center"
+            android:onClick="openFlamRudiments"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#FDD835"
+            android:padding="20dp"
+            android:text="Drag Stroke Roll Rudiments"
+            android:textAlignment="center"
+            android:onClick="openDragRudiments"/>
     </LinearLayout>
 </ScrollView>
