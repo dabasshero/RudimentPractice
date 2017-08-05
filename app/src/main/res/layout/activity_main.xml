@@ -44,7 +44,7 @@
             android:padding="20dp"
             android:text="Multiple Stroke Roll Rudiments"
             android:textAlignment="center"
-            />
+            android:onClick="openMultipleRudiments"/>
 
         <TextView
             android:layout_width="match_parent"

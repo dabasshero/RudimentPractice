@@ -22,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
         Intent j = new Intent(this, DoubleStrokeRudActivity.class);
         startActivity(j);
     }
+
+    public void openMultipleRudiments(View view) {
+        Intent k = new Intent(this, MultipleRollRudActivity.class);
+        startActivity(k);
+    }
 }
