@@ -4,11 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.rudimentpractice.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:adjustViewBounds="true"
+        android:src="@drawable/drums" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="40 Essential Rudiments"
+        android:textAlignment="center"
+        android:background="#FDD835"
+        android:padding="20dp"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Stroke Roll Rudiments"
+        android:textAlignment="center"
+        android:background="#FDD835"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:onClick="openSingleStrokeRudiments"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Double Stroke Roll Rudiments"
+        android:textAlignment="center"
+        android:background="#FDD835"
+        android:padding="20dp"
+        android:layout_margin="20dp"/>
 </LinearLayout>
