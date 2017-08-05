@@ -14,16 +14,56 @@
         android:padding="10dp"/>
 
     <ImageView
-        android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_margin="20dp"
         android:adjustViewBounds="false"
         android:cropToPadding="false"
-        android:scaleType="fitStart"
+        android:scaleType="centerInside"
         android:src="@drawable/singlestroke" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:background="@android:color/black"></View>
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Stroke Four"
+        android:padding="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/singlestrokefour" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Stroke Seven"
+        android:padding="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/singlestrokeseven" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"/>
 </LinearLayout>
