@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, SingleStrokeRudActivity.class);
         startActivity(i);
     }
+
+    public void openDoubleStrokeRudments(View view) {
+        Intent j = new Intent(this, DoubleStrokeRudActivity.class);
+        startActivity(j);
+    }
 }
