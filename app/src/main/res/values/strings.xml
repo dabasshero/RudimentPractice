@@ -1,3 +1,22 @@
 <resources>
+    <!-- Tittle for the application -->
     <string name="app_name">Drum Rudiments</string>
+
+    <!-- Category for Single rudiment -->
+    <string name="category_singles">Single Stroke Roll Rudiments</string>
+
+    <!-- Category for Multiple Bounce rudiments -->
+    <string name="category_bounce">Bounce Roll Rudiments</string>
+
+    <!-- Category for Double Stroke Rudiments -->
+    <string name="category_doubles">Double Stroke Roll Rudiments</string>
+
+    <!-- Category for Diddle Rudiments -->
+    <string name="category_diddle">Diddle Rudiments</string>
+
+    <!-- Category for flam rudiments -->
+    <string name="category_flam">Flam Rudiments</string>
+
+    <!-- Category for drag rudiments -->
+    <string name="category_drag">Drag Rudiments</string>
 </resources>

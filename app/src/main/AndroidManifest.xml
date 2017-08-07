@@ -16,12 +16,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SingleStrokeRudActivity" />
-        <activity android:name=".DoubleStrokeRudActivity" />
-        <activity android:name=".MultipleRollRudActivity" />
-        <activity android:name=".DiddleStrokeRudActivity" />
-        <activity android:name=".FlamRudActivity" />
-        <activity android:name=".DragRudActivity"></activity>
+        <activity
+            android:name=".SingleStrokeRudActivity"
+            android:label="@string/category_singles">
+        </activity>
+        <activity
+            android:name=".DoubleStrokeRudActivity"
+            android:label="@string/category_doubles">
+
+        </activity>
+        <activity
+            android:name=".MultipleRollRudActivity"
+            android:label="@string/category_bounce">
+
+        </activity>
+        <activity
+            android:name=".DiddleStrokeRudActivity"
+            android:label="@string/category_diddle">
+
+        </activity>
+        <activity
+            android:name=".FlamRudActivity"
+            android:label="@string/category_flam">
+
+        </activity>
+        <activity
+            android:name=".DragRudActivity"
+            android:label="@string/category_drag">
+
+        </activity>
     </application>
 
 </manifest>
