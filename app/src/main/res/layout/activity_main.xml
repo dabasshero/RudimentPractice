@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:src="@drawable/dwDrums" />
+            android:src="@drawable/dw_drums" />
 
         <TextView
             android:layout_width="match_parent"
